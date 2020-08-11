@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Heart</title>
+  </head>
+  <body>
+    <h1>Do you had heart disease?</h1>
+    <form method="POST" action="/klasifikasi">
+      Age : <input type="number" name="age" />
+      <br />
+      Sex (0=Female;1=Male) : <input type="number" name="sex" />
+      <br />
+      Chest Pain (1/2/3/4) : <input type="number" name="cp" />
+      <br />
+      Cholesterol Level (ex:203) : <input type="number" name="chol" />
+      <br />
+      Blood Sugar (0 = blood sugar < 120mg/dl; 1 = blood sugar > 120mg/dl) :
+      <input type="number" name="fbs" />
+      <br />
+      ECG Result (0/1/2) : <input type="number" name="restecg" />
+      <br />
+      Max Heart Rate: <input type="number" name="thalach" />
+      <br />
+      Exercise Routinely(0=No, 1=Yes): <input type="number" name="exang" />
+      <br />
+      Stress Test Depression (ex:1.5) : <input type="float" name="oldpeak" />
+      <br />
+      Slope (ex:2) : <input type="number" name="slope" />
+      <br />
+      Number of Major Vessel (0/1/2) : <input type="number" name="ca" />
+      <br />
+      Thalium Stress (0/1/2/3) : <input type="number" name="thal" />
+      <br />
+      <input type="submit" value="Classify" />
+    </form>
+  </body>
+</html>
